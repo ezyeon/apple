@@ -3,7 +3,6 @@ body { font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons','Apple Gothic'; f
 
  
 /* text style */
-h1 {}
 h2 { font-size: 56px; line-height: 66px; font-weight: 600; color: rgb(245, 245, 247); }
 h3 { font-size: 28px; line-height: 31px; font-weight: 400; color: rgb(245, 245, 247); letter-spacing: 0.112px; }
 h4 { font-size: 56px; line-height: 66px; font-weight: 600; color: rgb(29, 29, 31); }
@@ -50,6 +49,7 @@ a { font-size: 21px; line-height: 32px; color: rgb(0, 102, 204); letter-spacing:
 
 
 
+/* Media Queries */
 
 @media screen and (max-width:1068px ) {
     
@@ -60,8 +60,8 @@ a { font-size: 21px; line-height: 32px; color: rgb(0, 102, 204); letter-spacing:
     h6 { font-size: 19px; line-height: 25px; letter-spacing: 0.036px; }
     p { font-size: 17px; line-height: 27px; }
     a { font-size: 19px; line-height: 25px; letter-spacing: 0.231px;}
-
 }
+
 
 @media screen and (max-width:734px ) {
     
@@ -72,5 +72,4 @@ a { font-size: 21px; line-height: 32px; color: rgb(0, 102, 204); letter-spacing:
     h6 { font-size: 19px; line-height: 25px; }
     p { font-size: 14px; line-height: 22px; }
     a { font-size: 19px; line-height: 25px; letter-spacing: 0.231px;}
-
 }

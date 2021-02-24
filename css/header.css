@@ -18,7 +18,7 @@ header { width: 100%; height: auto; background-color: rgba(0, 0, 0, 0.8); }
 .gnb li:nth-child(n+7):hover { opacity: 1; }
 
 
-
+/* Media Queries */
 
 @media screen and (max-width:767px ) {
     .gnb_desktop { display: none; }
@@ -31,10 +31,11 @@ header { width: 100%; height: auto; background-color: rgba(0, 0, 0, 0.8); }
     .gnb_m li a { font-size: 17px; line-height: 48px; padding: 17px 16px; color: rgba(245, 245, 247, 0.8);  text-align: center; }
 
 
-    .gnb_mobile li:nth-child(1) { width: 30px; height: 30px; background-image: url(../img/menubar_2line.svg); background-size: auto; background-position: left center; background-repeat: no-repeat; }
+    .gnb_mobile li:nth-child(1) { width: 30px; height: 30px; background-image: url(../img/menubar_2line.svg); background-size: auto; background-position: left center; background-repeat: no-repeat; opacity: 0.8; }
 
-    .gnb_mobile li:nth-child(2) { width: 18px; height: 48px; background-image: url(../img/globalnav_apple_image__cxwwnrj0urau_large.svg); background-size: cover; background-position: center center; background-repeat: no-repeat; }
+    .gnb_mobile li:nth-child(2) { width: 18px; height: 48px; background-image: url(../img/globalnav_apple_image__cxwwnrj0urau_large.svg); background-size: cover; background-position: center center; background-repeat: no-repeat; opacity: 0.8; margin: 0 0 0 -6px; }
 
-    .gnb_mobile li:nth-child(3) { width: 17px; height: 48px; background-image: url(../img/globalnav_bag_image__bmix8075eg4i_large.svg); background-size: auto; background-position: center center; background-repeat: no-repeat; }
+    .gnb_mobile li:nth-child(3) { width: 17px; height: 48px; background-image: url(../img/globalnav_bag_image__bmix8075eg4i_large.svg); background-size: auto; background-position: center center; background-repeat: no-repeat; opacity: 0.8; }
 
+    .gnb_mobile li:hover { opacity: 1; }
 }

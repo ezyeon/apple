@@ -1,34 +1,33 @@
 footer { width: 100%; height: auto; background-color: rgb(245, 245, 247); font-size: 12px; line-height: 16px; color: rgb(134, 134, 139); text-align: left; letter-spacing: normal; }
 footer a { font-size: 12px; line-height: 16px; color: rgb(81, 81, 84); letter-spacing: normal; }
 footer a:hover { text-decoration: underline; }
-
-
-
 .footer_wrap { max-width: 1024px; margin: 0 auto; padding: 0 22px 20px; }
 
+/* footer note CSS */
 .foot_note { width: 100%; padding: 17px 0 20.6px 0; border-bottom: solid 1px rgb(210, 210, 215); }
 
+/* footer navigation CSS */
 footer nav { display: flex; justify-content: space-between; padding-top: 20px; }
 .diretory_column { width: 20%; }
 footer h3 { font-size: 12px; line-height: 16px; font-weight: 600; color: rgb(29, 29, 31); margin: 0 20px 9.6px 0; }
 .diretory_column ul li { margin-bottom: 9.6px; }
 .diretory_column_2 { padding-top: 15px; }
 
-
+/* footer company information CSS */
 .footer_shop { padding: 25px 0 8px; border-bottom: solid 1px rgb(210, 210, 215); margin-bottom: 7px; }
 .footer_shop a { color: rgb(0, 102, 204); }
 
 .footer_legal { display: flex; justify-content: flex-start; position: relative; margin: 9px 0; }
 .footer_locale { position: absolute; right: 0px; order: 3; }
-
 .footer_copyright { margin: 0 30px 0 0;}
-
 .footer_link a { padding: 0 10px 0 0; border-right: solid 1px rgb(210, 210, 215); margin: 0 7px 0 0; }
 .footer_link a:nth-child(5) { border-right: hidden; }
 
 .footer_company_info { font-size: 11px; line-height: 14.67px; }
 
 
+
+/* Media Queries */
 
 @media screen and (max-width:767px ) {
 
@@ -38,7 +37,7 @@ footer h3 { font-size: 12px; line-height: 16px; font-weight: 600; color: rgb(29,
     footer nav { display: block; padding: 20px 0 0; }
     .diretory_column { width: 100%; }
     .diretory_column_2 { padding-top: 0; }
-    
+
     footer h3 { color: rgb(29, 29, 31); padding: 10px 0; margin: 0; border-bottom: solid 1px rgb(210, 210, 215); display: flex; justify-content: space-between; }
     footer h3::after {
         content: '+';
