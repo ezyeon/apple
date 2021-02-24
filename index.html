@@ -34,11 +34,26 @@
             </ul>
         </nav>
         <!-- Mobile GNB -->
-        <nav class="gnb_mobile">
+        <nav class="gnb_mobile" id="gnb_mobile_open">
             <ul class="gnb_m">
+                <li id="m_open"><a href="#" onclick="menuOpen();"></a></li>
                 <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li id="m_open_3"><a href="#" ></a></li>
+            </ul>
+            <div class="gnb_m_search_wrap">
+                <div class="gnb_m_search">
+                    <div class="m_search_icon"></div>
+                    <span>apple.com 검색</span>
+                    <div class="m_search_reset">취소</div>
+                </div>
+            </div>
+            <ul class="gnb_m_menu">
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">iPad</a></li>
+                <li><a href="#">iPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">고객지원</a></li>
             </ul>
         </nav>
     </header>
@@ -161,7 +176,6 @@
             </div>
         </section>
     </main>
-
 
     <!-- Footer -->
     <footer>
@@ -292,5 +306,26 @@
             </p>
         </div>
     </footer>
+
+
+    <script>
+        function menuOpen() {
+            document.getElementById("gnb_mobile_open") 
+            .style="background-color: rgba(0, 0, 0, 1); overflow: none; height: 100vh;"
+            
+            document.getElementById("m_open")
+            .style="background-img:url(img/menubar_close.svg);"
+            
+            document.getElementById("m_open_3")
+            .style="visibility: hidden;"
+
+
+        }
+
+
+    </script>
+
+
+
 </body>
 </html>
